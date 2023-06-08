@@ -25,7 +25,7 @@ body{
 
 .gray{
     background-color: #E5E7EB;
-    height: 220px;
+    height: 210px;
 }
 
 .secondbody{
@@ -36,7 +36,7 @@ body{
 
 .footer{
     margin-top: auto;
-    height:50px;
+    height:60px;
 }
 
 .header > div{
@@ -133,7 +133,7 @@ ul li a{
 .bodyborder{
     width: 100px;
     height: 100px;
-    border: #3881f6b1 solid 3px;
+    border: #3881f6e5 solid 3px;
     border-radius: 8px;
 }
 
@@ -163,4 +163,41 @@ ul li a{
     text-align: end;
     font-size: 18px;
     font-weight: 800;
+}
+
+.secondbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondborder{
+    width: 750px;
+    height: 100px;
+    background-color: #3881f6;
+    border: #3882F9 solid 3px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 70px;
+}
+
+.secondbutton{
+    height: 30px;
+    color: white;
+    padding:  5px 20px;
+    background-color: #3881f6;
+    border: white solid 2px;
+    border-radius: 4px;
+}
+
+.secondheader{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.secondbody{
+    color: white;
 }
