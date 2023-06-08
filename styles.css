@@ -68,6 +68,7 @@ ul li a{
 .header > .headerheader > div{
     font-weight: 800;
     font-size: 24px;
+    cursor: pointer;
 }
 .header > .headerheader > ul{
     display: flex;
@@ -113,6 +114,7 @@ ul li a{
     background-color: #3882F6;
     border: black solid 1px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .body > .bodyheader{
@@ -190,6 +192,7 @@ ul li a{
     background-color: #3881f6;
     border: white solid 2px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .secondheader{
