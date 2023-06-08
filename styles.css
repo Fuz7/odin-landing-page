@@ -142,3 +142,25 @@ ul li a{
     font-size: 12px;
     max-width: 100px;
 }
+
+.gray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gray > div{
+    padding: 30px 220px;
+}
+
+.grayquote{
+    font-size: 28px;
+    font-weight: light;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.grayquotedby{
+    text-align: end;
+    font-size: 18px;
+    font-weight: 800;
+}
