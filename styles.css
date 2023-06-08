@@ -77,8 +77,9 @@ ul li a{
 
 .header > .headercontent{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .headercontent > .headerimage{
@@ -99,6 +100,8 @@ ul li a{
     font-size: 18px;
     font-weight: normal;
     color: #E6E7EB;
+    max-width: 500px;
+    margin-right: 20px;
 }
 
 .headerimage{
@@ -151,7 +154,7 @@ ul li a{
     align-items: center;
 }
 .gray > div{
-    padding: 30px 220px;
+    padding: 30px 420px;
 }
 
 .grayquote{
@@ -174,7 +177,7 @@ ul li a{
 }
 
 .secondborder{
-    width: 750px;
+    width: 850px;
     height: 100px;
     background-color: #3881f6;
     border: #3882F9 solid 3px;
