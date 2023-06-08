@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container > .header{
+    height: 350px;
+}
+
+.header,.footer{
+    background-color: #1F2937;
+}
+
+.container .body{
+    height: 300px;
+}
+
+.gray{
+    background-color: #E5E7EB;
+    height: 220px;
+}
+
+.secondbody{
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+}
+
+.footer{
+    margin-top: auto;
+    height:50px;
+}
+
+.header > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.header{
+    padding: 12px 120px;
+}
+ul li, .header > div{
+    color: white;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style-type: none;
+    font-size: 18px;
+}
+ul li a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header > .headerheader > div{
+    font-weight: 800;
+    font-size: 24px;
+}
+.header > .headerheader > ul{
+    display: flex;
+    gap: 12px;
+}
+
+.header > .headercontent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.headercontent > .headerimage{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(156, 156, 156);
+    flex-shrink: 0;
+}
+
+.headertext{
+    font-size: 40px;
+    font-weight: 900;
+    color: #F9FAF8;
+    
+}
+
+.headertext > .headersmalltext{
+    font-size: 18px;
+    font-weight: normal;
+    color: #E6E7EB;
+}
+
+.headerimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headertext > button{
+    font-size: 18px;
+    padding: 5px 20px;
+    color: white;
+    background-color: #3882F6;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+.body > .bodyheader{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 25px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.body > .bodycontent{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.bodyborder{
+    width: 100px;
+    height: 100px;
+    border: #3881f6b1 solid 3px;
+    border-radius: 8px;
+}
+
+.bodytext{
+    text-align: center;
+    font-size: 12px;
+    max-width: 100px;
+}
