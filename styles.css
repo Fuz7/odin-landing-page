@@ -201,3 +201,11 @@ ul li a{
 .secondbody{
     color: white;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
